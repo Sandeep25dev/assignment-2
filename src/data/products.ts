@@ -53,7 +53,7 @@ export const products = [
     category: "Dresses",
     color: "Yellow",
     price: 180,
-    rating: 4.9,
+    rating: 2.5,
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const products = [
     category: "Dresses",
     color: "Black",
     price: 150,
-    rating: 4.9,
+    rating: 3.9,
   },
   {
     id: 9,
