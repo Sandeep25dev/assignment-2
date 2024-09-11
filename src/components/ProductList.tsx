@@ -24,27 +24,23 @@ const ProductList: React.FC<ProductListProps> = ({
 }) => {
   let filteredProducts = products;
 
-  // Filter by category
   if (category) {
     filteredProducts = filteredProducts.filter(
       (product) => product.category === category
     );
   }
-
-  // Filter by price range
   filteredProducts = filteredProducts.filter(
     (product) =>
       product.price >= priceRange[0] && product.price <= priceRange[1]
   );
 
-  // Filter by color
+
   if (color) {
     filteredProducts = filteredProducts.filter(
       (product) => product.color === color
     );
   }
 
-  // Sort by price, name, or rating
   if (sort === "priceLow") {
     filteredProducts = filteredProducts.sort((a, b) => a.price - b.price);
   } else if (sort === "priceHigh") {
