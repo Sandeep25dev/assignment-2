@@ -4,7 +4,7 @@
 
 ## UI is also very simplistic as I made it in within 45 minutes
 
-### Hosted URL:
+### Hosted URL: https://sandeepkumar-assignment-2.netlify.app/
 
 ```
 
